@@ -1,0 +1,26 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+</head>
+<!--<body background="../static/js/bdh.jpg" style="background-repeat: no-repeat; background-size: cover">-->
+<body>
+    <h1 style="text-align: center">选择文件上传,确保文件的正确性！</h1>
+    <form style="display:flex; align-items: center; justify-content: center;" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="上传、计算价格">
+    </form>
+<!--    <button id="export" style="display:flex; align-items: center; justify-content: center;">导出</button>-->
+    <form style="display:flex; align-items: center; justify-content: center;">
+        <a href="https://5r357180a3.goho.co/Export_BJB" >导出4.1报价表</a><p>
+        <br><br>
+        <a href="https://5r357180a3.goho.co/Export_PTXSJ" >导出4.2平台销售价</a><p>
+        <br><br><br><br>
+        <a href="https://5r357180a3.goho.co/Export_PTJHJ" >导出4.3平台进货价</a><p>
+
+    </form>
+
+</body>
+</html>

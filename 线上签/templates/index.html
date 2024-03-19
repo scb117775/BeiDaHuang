@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Signature Capture</title>
+<style>
+  #signature-canvas {
+    border: 1px solid #000;
+    touch-action: none; /* Prevent mobile browsers from making it draggable */
+  }
+  #download-btn {
+    display: block;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+<!--<div style="text-align: center">-->
+<canvas id="signature-canvas" width="400" height="200"></canvas>
+<button id="clear-btn">清空</button>
+<button id="download-btn" disabled >下载</button>
+
+<script src="../static/js/signature.js"></script>
+<!--</div>-->
+</body>
+</html>
